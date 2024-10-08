@@ -1,0 +1,15 @@
+﻿using SignalR.BusinessLayer.Dtos.Requests.Booking;
+using SignalR.BusinessLayer.Dtos.Responses.Booking;
+
+namespace SignalR.BusinessLayer.Abstracts;
+
+public interface IBookingService 
+{
+    Task<CreatedBookingResponse> AddAsync(CreateBookingRequest createBookingRequest);
+    Task<UpdatedBookingResponse> UpdateAsync(int id, UpdateBookingRequest updateBookingRequest);
+    Task<DeletedBookingResponse> DeleteAsync(DeleteBookingRequest deleteBookingRequest);
+    Task<GetBookingResponse> GetAsync(GetBookingRequest getBookingRequest);
+    Task<List<GetBookingResponse>> GetListAsync();
+}
+
+
