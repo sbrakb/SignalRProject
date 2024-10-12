@@ -1,11 +1,11 @@
 ﻿using AutoMapper;
 using SignalIR.EntityLayer.Entities;
-using SignalR.BusinessLayer.Abstracts;
-using SignalR.BusinessLayer.Dtos.Requests.Testimoinal;
-using SignalR.BusinessLayer.Dtos.Responses.Testimoinal;
-using SignalR.DataAccessLayer.Abstracts;
+using SignalRWebUI.BusinessLayer.Abstracts;
+using SignalRWebUI.BusinessLayer.Dtos.Requests.Testimoinal;
+using SignalRWebUI.BusinessLayer.Dtos.Responses.Testimoinal;
+using SignalRWebUI.DataAccessLayer.Abstracts;
 
-namespace SignalR.BusinessLayer.Concretes;
+namespace SignalRWebUI.BusinessLayer.Concretes;
 
 public class TestimoinalManager : ITestimoinalService
 {

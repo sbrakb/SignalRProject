@@ -1,9 +1,9 @@
 ﻿using AutoMapper;
 using SignalIR.EntityLayer.Entities;
-using SignalR.BusinessLayer.Dtos.Requests.Booking;
-using SignalR.BusinessLayer.Dtos.Responses.Booking;
+using SignalRWebUI.BusinessLayer.Dtos.Requests.Booking;
+using SignalRWebUI.BusinessLayer.Dtos.Responses.Booking;
 
-namespace SignalR.BusinessLayer.Profiles;
+namespace SignalRWebUI.BusinessLayer.Profiles;
 
 public class BookingProfile : Profile
 {

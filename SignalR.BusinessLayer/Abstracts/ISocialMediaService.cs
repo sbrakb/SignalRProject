@@ -1,7 +1,7 @@
-﻿using SignalR.BusinessLayer.Dtos.Requests.SocialMedia;
-using SignalR.BusinessLayer.Dtos.Responses.SocialMedia;
+﻿using SignalRWebUI.BusinessLayer.Dtos.Requests.SocialMedia;
+using SignalRWebUI.BusinessLayer.Dtos.Responses.SocialMedia;
 
-namespace SignalR.BusinessLayer.Abstracts;
+namespace SignalRWebUI.BusinessLayer.Abstracts;
 
 public interface ISocialMediaService
 {

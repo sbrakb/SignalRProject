@@ -1,11 +1,11 @@
 ﻿using AutoMapper;
 using SignalIR.EntityLayer.Entities;
-using SignalR.BusinessLayer.Abstracts;
-using SignalR.BusinessLayer.Dtos.Requests.Category;
-using SignalR.BusinessLayer.Dtos.Responses.Category;
-using SignalR.DataAccessLayer.Abstracts;
+using SignalRWebUI.BusinessLayer.Abstracts;
+using SignalRWebUI.BusinessLayer.Dtos.Requests.Category;
+using SignalRWebUI.BusinessLayer.Dtos.Responses.Category;
+using SignalRWebUI.DataAccessLayer.Abstracts;
 
-namespace SignalR.BusinessLayer.Concretes;
+namespace SignalRWebUI.BusinessLayer.Concretes;
 
 public class CategoryManager : ICategoryService
 {

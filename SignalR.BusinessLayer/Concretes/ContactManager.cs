@@ -1,11 +1,11 @@
 ﻿using AutoMapper;
 using SignalIR.EntityLayer.Entities;
-using SignalR.BusinessLayer.Abstracts;
-using SignalR.BusinessLayer.Dtos.Requests.Contact;
-using SignalR.BusinessLayer.Dtos.Responses.Contact;
-using SignalR.DataAccessLayer.Abstracts;
+using SignalRWebUI.BusinessLayer.Abstracts;
+using SignalRWebUI.BusinessLayer.Dtos.Requests.Contact;
+using SignalRWebUI.BusinessLayer.Dtos.Responses.Contact;
+using SignalRWebUI.DataAccessLayer.Abstracts;
 
-namespace SignalR.BusinessLayer.Concretes;
+namespace SignalRWebUI.BusinessLayer.Concretes;
 
 public class ContactManager : IContactService
 {

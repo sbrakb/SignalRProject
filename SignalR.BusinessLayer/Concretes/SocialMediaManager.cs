@@ -1,11 +1,11 @@
 ﻿using AutoMapper;
 using SignalIR.EntityLayer.Entities;
-using SignalR.BusinessLayer.Abstracts;
-using SignalR.BusinessLayer.Dtos.Requests.SocialMedia;
-using SignalR.BusinessLayer.Dtos.Responses.SocialMedia;
-using SignalR.DataAccessLayer.Abstracts;
+using SignalRWebUI.BusinessLayer.Abstracts;
+using SignalRWebUI.BusinessLayer.Dtos.Requests.SocialMedia;
+using SignalRWebUI.BusinessLayer.Dtos.Responses.SocialMedia;
+using SignalRWebUI.DataAccessLayer.Abstracts;
 
-namespace SignalR.BusinessLayer.Concretes;
+namespace SignalRWebUI.BusinessLayer.Concretes;
 
 public class SocialMediaManager : ISocialMediaService
 {

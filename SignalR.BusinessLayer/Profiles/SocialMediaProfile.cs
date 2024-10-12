@@ -1,9 +1,9 @@
 ﻿using AutoMapper;
 using SignalIR.EntityLayer.Entities;
-using SignalR.BusinessLayer.Dtos.Requests.SocialMedia;
-using SignalR.BusinessLayer.Dtos.Responses.SocialMedia;
+using SignalRWebUI.BusinessLayer.Dtos.Requests.SocialMedia;
+using SignalRWebUI.BusinessLayer.Dtos.Responses.SocialMedia;
 
-namespace SignalR.BusinessLayer.Profiles;
+namespace SignalRWebUI.BusinessLayer.Profiles;
 
 public class SocialMediaProfile : Profile
 {

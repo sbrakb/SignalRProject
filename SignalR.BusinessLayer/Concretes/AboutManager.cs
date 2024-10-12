@@ -1,12 +1,12 @@
 ﻿using AutoMapper;
 using SignalIR.EntityLayer.Entities;
-using SignalR.BusinessLayer.Abstracts;
-using SignalR.BusinessLayer.Dtos.Requests.About;
-using SignalR.BusinessLayer.Dtos.Responses.About;
-using SignalR.DataAccessLayer.Abstracts;
+using SignalRWebUI.BusinessLayer.Abstracts;
+using SignalRWebUI.BusinessLayer.Dtos.Requests.About;
+using SignalRWebUI.BusinessLayer.Dtos.Responses.About;
+using SignalRWebUI.DataAccessLayer.Abstracts;
 
 
-namespace SignalR.BusinessLayer.Concretes;
+namespace SignalRWebUI.BusinessLayer.Concretes;
 
 public class AboutManager : IAboutService
 {

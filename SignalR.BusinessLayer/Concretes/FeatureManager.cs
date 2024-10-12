@@ -1,11 +1,11 @@
 ﻿using AutoMapper;
 using SignalIR.EntityLayer.Entities;
-using SignalR.BusinessLayer.Abstracts;
-using SignalR.BusinessLayer.Dtos.Requests.Feature;
-using SignalR.BusinessLayer.Dtos.Responses.Feature;
-using SignalR.DataAccessLayer.Abstracts;
+using SignalRWebUI.BusinessLayer.Abstracts;
+using SignalRWebUI.BusinessLayer.Dtos.Requests.Feature;
+using SignalRWebUI.BusinessLayer.Dtos.Responses.Feature;
+using SignalRWebUI.DataAccessLayer.Abstracts;
 
-namespace SignalR.BusinessLayer.Concretes;
+namespace SignalRWebUI.BusinessLayer.Concretes;
 
 public class FeatureManager : IFeatureService
 {

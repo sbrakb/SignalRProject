@@ -1,4 +1,4 @@
-﻿namespace SignalR.BusinessLayer.Dtos.Requests.Category;
+﻿namespace SignalRWebUI.BusinessLayer.Dtos.Requests.Category;
 
 public record UpdateCategoryRequest
 {

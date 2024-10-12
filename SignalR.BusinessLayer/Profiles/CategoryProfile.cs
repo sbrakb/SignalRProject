@@ -1,9 +1,9 @@
 ﻿using AutoMapper;
 using SignalIR.EntityLayer.Entities;
-using SignalR.BusinessLayer.Dtos.Requests.Category;
-using SignalR.BusinessLayer.Dtos.Responses.Category;
+using SignalRWebUI.BusinessLayer.Dtos.Requests.Category;
+using SignalRWebUI.BusinessLayer.Dtos.Responses.Category;
 
-namespace SignalR.BusinessLayer.Profiles;
+namespace SignalRWebUI.BusinessLayer.Profiles;
 
 public class CategoryProfile:Profile
 {

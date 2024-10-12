@@ -1,8 +1,8 @@
 ﻿using SignalIR.EntityLayer.Entities;
-using SignalR.BusinessLayer.Dtos.Requests.Product;
-using SignalR.BusinessLayer.Dtos.Responses.Product;
+using SignalRWebUI.BusinessLayer.Dtos.Requests.Product;
+using SignalRWebUI.BusinessLayer.Dtos.Responses.Product;
 
-namespace SignalR.BusinessLayer.Abstracts;
+namespace SignalRWebUI.BusinessLayer.Abstracts;
 
 public interface IProductService
 {

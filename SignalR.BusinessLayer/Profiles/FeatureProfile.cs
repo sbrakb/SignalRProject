@@ -1,9 +1,9 @@
 ﻿using AutoMapper;
 using SignalIR.EntityLayer.Entities;
-using SignalR.BusinessLayer.Dtos.Requests.Feature;
-using SignalR.BusinessLayer.Dtos.Responses.Feature;
+using SignalRWebUI.BusinessLayer.Dtos.Requests.Feature;
+using SignalRWebUI.BusinessLayer.Dtos.Responses.Feature;
 
-namespace SignalR.BusinessLayer.Profiles;
+namespace SignalRWebUI.BusinessLayer.Profiles;
 
 public class FeatureProfile : Profile
 {

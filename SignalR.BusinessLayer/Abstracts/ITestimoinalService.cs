@@ -1,7 +1,7 @@
-﻿using SignalR.BusinessLayer.Dtos.Requests.Testimoinal;
-using SignalR.BusinessLayer.Dtos.Responses.Testimoinal;
+﻿using SignalRWebUI.BusinessLayer.Dtos.Requests.Testimoinal;
+using SignalRWebUI.BusinessLayer.Dtos.Responses.Testimoinal;
 
-namespace SignalR.BusinessLayer.Abstracts;
+namespace SignalRWebUI.BusinessLayer.Abstracts;
 
 public interface ITestimoinalService
 {

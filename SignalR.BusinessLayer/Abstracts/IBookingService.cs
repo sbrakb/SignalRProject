@@ -1,7 +1,7 @@
-﻿using SignalR.BusinessLayer.Dtos.Requests.Booking;
-using SignalR.BusinessLayer.Dtos.Responses.Booking;
+﻿using SignalRWebUI.BusinessLayer.Dtos.Requests.Booking;
+using SignalRWebUI.BusinessLayer.Dtos.Responses.Booking;
 
-namespace SignalR.BusinessLayer.Abstracts;
+namespace SignalRWebUI.BusinessLayer.Abstracts;
 
 public interface IBookingService 
 {

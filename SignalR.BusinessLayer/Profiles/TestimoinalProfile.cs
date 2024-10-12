@@ -1,9 +1,9 @@
 ﻿using AutoMapper;
 using SignalIR.EntityLayer.Entities;
-using SignalR.BusinessLayer.Dtos.Requests.Testimoinal;
-using SignalR.BusinessLayer.Dtos.Responses.Testimoinal;
+using SignalRWebUI.BusinessLayer.Dtos.Requests.Testimoinal;
+using SignalRWebUI.BusinessLayer.Dtos.Responses.Testimoinal;
 
-namespace SignalR.BusinessLayer.Profiles;
+namespace SignalRWebUI.BusinessLayer.Profiles;
 
 public class TestimoinalProfile : Profile
 {

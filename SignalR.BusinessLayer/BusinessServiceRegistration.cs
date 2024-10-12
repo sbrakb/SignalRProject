@@ -1,9 +1,9 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using SignalR.BusinessLayer.Abstracts;
-using SignalR.BusinessLayer.Concretes;
+using SignalRWebUI.BusinessLayer.Abstracts;
+using SignalRWebUI.BusinessLayer.Concretes;
 using System.Reflection;
 
-namespace SignalR.BusinessLayer;
+namespace SignalRWebUI.BusinessLayer;
 
 public static class BusinessServiceRegistration
 {

@@ -1,7 +1,7 @@
-﻿using SignalR.BusinessLayer.Dtos.Requests.About;
-using SignalR.BusinessLayer.Dtos.Responses.About;
+﻿using SignalRWebUI.BusinessLayer.Dtos.Requests.About;
+using SignalRWebUI.BusinessLayer.Dtos.Responses.About;
 
-namespace SignalR.BusinessLayer.Abstracts;
+namespace SignalRWebUI.BusinessLayer.Abstracts;
 
 public interface IAboutService 
 {

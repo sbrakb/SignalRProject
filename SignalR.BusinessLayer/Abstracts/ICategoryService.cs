@@ -1,7 +1,7 @@
-﻿using SignalR.BusinessLayer.Dtos.Requests.Category;
-using SignalR.BusinessLayer.Dtos.Responses.Category;
+﻿using SignalRWebUI.BusinessLayer.Dtos.Requests.Category;
+using SignalRWebUI.BusinessLayer.Dtos.Responses.Category;
 
-namespace SignalR.BusinessLayer.Abstracts;
+namespace SignalRWebUI.BusinessLayer.Abstracts;
 
 public interface ICategoryService
 {

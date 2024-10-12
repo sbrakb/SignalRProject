@@ -1,7 +1,7 @@
-﻿using SignalR.BusinessLayer.Dtos.Requests.Discount;
-using SignalR.BusinessLayer.Dtos.Responses.Discount;
+﻿using SignalRWebUI.BusinessLayer.Dtos.Requests.Discount;
+using SignalRWebUI.BusinessLayer.Dtos.Responses.Discount;
 
-namespace SignalR.BusinessLayer.Abstracts;
+namespace SignalRWebUI.BusinessLayer.Abstracts;
 
 public interface IDiscountService
 {

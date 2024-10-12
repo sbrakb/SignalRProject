@@ -1,9 +1,9 @@
 ﻿using AutoMapper;
 using SignalIR.EntityLayer.Entities;
-using SignalR.BusinessLayer.Dtos.Requests.Product;
-using SignalR.BusinessLayer.Dtos.Responses.Product;
+using SignalRWebUI.BusinessLayer.Dtos.Requests.Product;
+using SignalRWebUI.BusinessLayer.Dtos.Responses.Product;
 
-namespace SignalR.BusinessLayer.Profiles;
+namespace SignalRWebUI.BusinessLayer.Profiles;
 
 public class ProductProfile : Profile
 {

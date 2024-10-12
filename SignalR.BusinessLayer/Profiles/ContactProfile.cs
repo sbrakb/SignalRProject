@@ -1,9 +1,9 @@
 ﻿using AutoMapper;
 using SignalIR.EntityLayer.Entities;
-using SignalR.BusinessLayer.Dtos.Requests.Contact;
-using SignalR.BusinessLayer.Dtos.Responses.Contact;
+using SignalRWebUI.BusinessLayer.Dtos.Requests.Contact;
+using SignalRWebUI.BusinessLayer.Dtos.Responses.Contact;
 
-namespace SignalR.BusinessLayer.Profiles;
+namespace SignalRWebUI.BusinessLayer.Profiles;
 
 public class ContactProfile : Profile
 {

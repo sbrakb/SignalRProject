@@ -1,7 +1,7 @@
-﻿using SignalR.BusinessLayer.Dtos.Requests.Feature;
-using SignalR.BusinessLayer.Dtos.Responses.Feature;
+﻿using SignalRWebUI.BusinessLayer.Dtos.Requests.Feature;
+using SignalRWebUI.BusinessLayer.Dtos.Responses.Feature;
 
-namespace SignalR.BusinessLayer.Abstracts;
+namespace SignalRWebUI.BusinessLayer.Abstracts;
 
 public interface IFeatureService
 {

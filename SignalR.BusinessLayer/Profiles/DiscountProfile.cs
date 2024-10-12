@@ -1,9 +1,9 @@
 ﻿using AutoMapper;
 using SignalIR.EntityLayer.Entities;
-using SignalR.BusinessLayer.Dtos.Requests.Discount;
-using SignalR.BusinessLayer.Dtos.Responses.Discount;
+using SignalRWebUI.BusinessLayer.Dtos.Requests.Discount;
+using SignalRWebUI.BusinessLayer.Dtos.Responses.Discount;
 
-namespace SignalR.BusinessLayer.Profiles;
+namespace SignalRWebUI.BusinessLayer.Profiles;
 
 public class DiscountProfile : Profile
 {

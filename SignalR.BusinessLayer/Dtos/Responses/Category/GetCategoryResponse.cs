@@ -1,4 +1,4 @@
-﻿namespace SignalR.BusinessLayer.Dtos.Responses.Category;
+﻿namespace SignalRWebUI.BusinessLayer.Dtos.Responses.Category;
 
 public record GetCategoryResponse
 {
